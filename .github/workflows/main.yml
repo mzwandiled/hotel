@@ -36,6 +36,11 @@ jobs:
       with:
          php-version: '8.1'
 
+    - name: Move public directory content to root
+      run: |
+        cp -r public/* .
+        rm -rf public
+
     #- name: Create Database
     #  run: |
     #    mkdir -p database
