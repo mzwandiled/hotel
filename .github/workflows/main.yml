@@ -63,4 +63,4 @@ jobs:
         server: ftp.logicbloom.co.za
         username: admin@logicbloom.co.za
         password: 51420841Lu@
-        server-dir: /home/logicore/
+        server-dir: /public_html/
