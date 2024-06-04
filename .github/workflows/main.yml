@@ -25,11 +25,11 @@ jobs:
     - name: Generate App Key
       run: php artisan key:generate
 
-   # - name: Install Npm
-   #   run: npm install
+    - name: Install Npm
+      run: npm install
 
-  #  - name: Compile Css and Js Assets
-  #   run: npm run build
+    - name: Compile Css and Js Assets
+      run: npm run build
 
     - name: Setup PHP with PECL extension
       uses: shivammathur/setup-php@v2
